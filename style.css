@@ -117,4 +117,94 @@ img {
 .planContainer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+.getThisFilled {
+    color: white;
+    border: 1px solid#ff7235;
+    border-radius: 4px;
+    margin: auto;
+    padding: 4px 25px;
+    background-color: #ff7235;
+}
+
+.getThisBlank {
+    color: #ff7235;
+    border: 1px solid#ff7235;
+    border-radius: 10px;
+    margin: auto;
+    padding: 4px 25px;
+}
+
+.starterPlan, .sliverPlan, .diamondPlan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.grisUser {
+    color: gray;
+    font-size: small;
+}
+
+.download {
+    background-color: #ff7235;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.download > span {
+    margin: 20px;
+}
+
+.tryfree {
+    color: #ff7235;
+    margin: auto;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.xlln {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.oulah {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.fin {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.logos {
+    filter: grayscale(100);
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    width: 25px;
+    gap: 15px;
 }
