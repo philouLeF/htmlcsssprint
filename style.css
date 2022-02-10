@@ -4,6 +4,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.autoMargin {
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +24,7 @@ header {
     margin-right: 25px;
 }
 
-#resquest {
+#request {
     color: #ff7235;
     border: 1px solid #ff7235;
     border-radius: 4px;
@@ -31,6 +35,14 @@ header {
     display: flex;
     justify-content: stretch;
     padding-bottom: 200px;
+}
+
+.xButton {
+    color: white;
+    font-weight: bold;
+    background-color: #ff7235;
+    border-radius: 50%;
+    border: none;
 }
 
 .container11 {
@@ -75,6 +87,7 @@ header {
     padding-top: 100px;
     background-color: #ff7235;
     background-size: cover;
+    border-radius: 10px;
 }
 
 .logo {
@@ -124,21 +137,21 @@ img {
     font-weight: bold;
 }
 
-.getThisFilled {
+.getThis {
+    border:1px solid #ff7235;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+
+.filled {
     color: white;
-    border: 1px solid#ff7235;
-    border-radius: 4px;
     margin: auto;
-    padding: 4px 25px;
     background-color: #ff7235;
 }
 
-.getThisBlank {
+.blank {
     color: #ff7235;
-    border: 1px solid#ff7235;
-    border-radius: 10px;
     margin: auto;
-    padding: 4px 25px;
 }
 
 .starterPlan, .sliverPlan, .diamondPlan {
@@ -160,6 +173,7 @@ img {
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    border-radius: 10px;
 }
 
 .download > span {
@@ -178,6 +192,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 20px;
 }
 
 .newsletter {
@@ -190,14 +205,27 @@ img {
     justify-content: space-between;
     align-items: center;
     border: 1px solid gray;
-    padding: 15px 20px;
-    border-radius: 5px;
+    padding: 4px 6px;
+    border-radius: 10px;
+}
+
+.email {
+    color: black;
+    border: none;
+}
+
+.subscribe {
+    color: white;
+    background-color: #ff7235;
+    padding: 12px 13px;
+    border-radius: 7px;
 }
 
 .fin {
     display: flex;
     justify-content: space-between;
-    padding: 60px 0;
+    padding: 0 0 60px 0;
+    width: 100%;
 }
 
 .logos {
@@ -207,4 +235,16 @@ img {
     height: 25px;
     width: 25px;
     gap: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.li {
+    padding: 5px 0;
+}
+
+.listTitle {
+    padding-bottom: 20px;
 }
